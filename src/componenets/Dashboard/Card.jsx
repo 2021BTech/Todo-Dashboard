@@ -1,11 +1,12 @@
 import React from 'react'
 //images
-import Avatars from '../Features/Av'
+import Avatars from '../Features/Avatar'
 //icons
 import iconBullet from '../../assets/icons/icon-bullet.svg'
 import iconMessage from '../../assets/icons/icon-message.svg'
 import iconShare from '../../assets/icons/icon-share.svg'
 import IconthreeDots from '../../assets/icons/icon-three-dots.svg'
+// Component
 import ProgressBar from '../Features/ProgressBar'
 
 
@@ -18,11 +19,11 @@ const Card = ({title, subTitle, img, progress, message, totalShare, key, bgColor
                 <h3 className='font-semibold text-base'>{title}</h3>
                 <p className='text-sm text-[#B8B9BD]'>{subTitle}</p>
             </div>
-            <img src={IconthreeDots} alt="Three Dots icon"/>
+            <img src={IconthreeDots} alt="icon"/>
         </div>
         <div className='flex justify-between items-center'>
             <div className='flex gap-1'>
-                <img src={iconBullet} alt="iconBullet" />
+                <img src={iconBullet} alt="icon" />
                 <span className='text-sm text-[#B8B9BD]'>Progress </span>
             </div>
             <span className='text-sm font-medium'>2/10</span>
@@ -30,8 +31,8 @@ const Card = ({title, subTitle, img, progress, message, totalShare, key, bgColor
         <ProgressBar completed={progress} bgColor={bgColor} />
         <div className='flex justify-between'>
             <div className='flex items-center gap-2'>
-                <span className='flex gap-1 text-xs text-[#B8B9BD]'><img src={iconMessage} alt="iconMessage" />{message}</span>
-                <span className='flex gap-1 text-xs text-[#B8B9BD]'><img src={iconShare} alt="iconShare" />{totalShare}</span>
+                <span className='flex gap-1 text-xs text-[#B8B9BD]'><img src={iconMessage} alt="icon" />{message}</span>
+                <span className='flex gap-1 text-xs text-[#B8B9BD]'><img src={iconShare} alt="icon" />{totalShare}</span>
             </div>
             <Avatars w={6}/>
         </div>

@@ -14,7 +14,8 @@ import { AiOutlineUsergroupDelete } from "react-icons/ai"
 
 const SideBar = () => {
   return (
-    <>
+    <>  
+            {/* Logo */}
          <div className="w-72 h-[1042px] bg-bg-Primary">
             <div className="flex justify-center mt-6 mb-7">
                 <img
@@ -23,10 +24,10 @@ const SideBar = () => {
                   alt="company logo"
                 />
             </div>
-    
+              {/* Nav Link */}
             <div className="flex flex-col px-0">
               <a href="/">
-                <div className='pl-6 py-0 mx-5 text-center cursor-pointer mb-3 flex items-center transition-colors text-whitish-Gray hover:text-light-white'>
+                <div className='flex items-center text-center pl-6 py-0 mx-5 mb-3 cursor-pointer transition-colors text-whitish-Gray hover:text-light-white'>
                   <div className="mr-2">
                     <TfiDashboard className="h-5 w-5 text-grayish-White" />
                   </div>
@@ -36,7 +37,7 @@ const SideBar = () => {
                 </div>
               </a>
               <a href="/">
-                <div className='pl-6 py-3 mx-5 text-center cursor-pointer mb-3 flex items-center transition-colors text-whitish-Gray hover:text-light-white'>
+                <div className='flex items-center text-center pl-6 py-3 mx-5 mb-3 cursor-pointer transition-colors text-whitish-Gray hover:text-light-white'>
                   <div className="mr-2">
                     <GoSettings className="h-5 w-5 text-grayish-White" />
                   </div>
@@ -46,7 +47,7 @@ const SideBar = () => {
                 </div>
               </a>
               <a href="/">
-                <div className='pl-6 py-3 mx-5 text-center cursor-pointer mb-3 flex items-center transition-colors text-whitish-Gray hover:text-light-white'>
+                <div className='flex items-center text-center pl-6 py-3 mx-5 mb-3 cursor-pointer transition-colors text-whitish-Gray hover:text-light-white'>
                   <div className="mr-2">
                     <TbActivity className="h-5 w-5 text-grayish-White" />
                   </div>
@@ -56,7 +57,7 @@ const SideBar = () => {
                 </div>
               </a>
               <a href="/">
-                <div className='pl-6 py-3 mx-5 text-center cursor-pointer mb-3 flex items-center transition-colors text-whitish-Gray hover:text-light-white'>
+                <div className='flex items-center text-center pl-6 py-3 mx-5 mb-3 cursor-pointer transition-colors text-whitish-Gray hover:text-light-white'>
                   <div className="mr-2">
                     <AiOutlineUsergroupAdd className="h-5 w-5 text-grayish-White" />
                   </div>
@@ -76,7 +77,7 @@ const SideBar = () => {
                 </div>
               </a>
               <a href="/">
-                <div className='pl-6 py-3 mx-5 text-center cursor-pointer mb-3 flex items-center transition-colors text-whitish-Gray hover:text-light-white'>
+                <div className='flex items-center text-center pl-6 py-3 mx-5 mb-3 cursor-pointer transition-colors text-whitish-Gray hover:text-light-white'>
                   <div className="mr-2">
                     <BiNetworkChart className="h-5 w-5 text-grayish-White" />
                   </div>
@@ -86,8 +87,10 @@ const SideBar = () => {
                 </div>
               </a>
               <hr className='bg-[#555] mx-6'/>
+
+              {/* Added Nav Link */}
               <a href="/">
-                <div className='pl-6 py-3 mx-5  text-center cursor-pointer mb-3 flex items-center transition-colors text-grayish-White hover:text-light-white'>
+                <div className='flex items-center text-center pl-6 py-3 mx-5 mb-3 cursor-pointer transition-colors text-grayish-White hover:text-light-white'>
                   <div className="mr-2">
                     <CgProfile className="h-5 w-5 text-grayish-White" />
                   </div>
@@ -97,7 +100,7 @@ const SideBar = () => {
                 </div>
               </a>
               <a href="/">
-                <div className='pl-6 py-3 mx-5 text-center cursor-pointer mb-3 flex items-center transition-colors text-grayish-White hover:text-light-white'>
+                <div className='flex items-center text-center pl-6 py-3 mx-5 mb-3 cursor-pointer transition-colors text-grayish-White hover:text-light-white'>
                   <div className="mr-2">
                     <AiOutlineUsergroupDelete className="h-5 w-5 text-grayish-White" />
                   </div>
@@ -107,7 +110,8 @@ const SideBar = () => {
                 </div>
               </a>
             </div>
-          <div className="flex justify-center  mt-[350px]">
+            {/* Nav Footer */}
+          <div className="flex justify-center mt-[350px]">
               <img
                 className="w-auto h-auto cursor-pointer"
                 src={cta}
