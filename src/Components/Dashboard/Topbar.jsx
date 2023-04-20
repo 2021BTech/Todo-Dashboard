@@ -1,7 +1,7 @@
 import React from 'react'
 
 //features
-import Avatar from '../Features/Avatar'
+import Avatar from '../Features/WidgetSm'
 //icons
 import iconParticipants from '../../assets/icons/icon-participants.svg'
 import iconBoard from '../../assets/icons/icon-board.svg'
@@ -19,7 +19,7 @@ const TopBarItem = [
 
 const Topbar = () => {
   return (
-      <div className='bg-white px-16 pt-10 pb-6'>
+      <header className='bg-white px-16 pt-10 pb-6'>
         <div className='flex justify-between items-center'>
             <div className='w-[700px]'>
                 <h1 className='font-bold text-[38px]'>New Campaign Run</h1>
@@ -47,7 +47,7 @@ const Topbar = () => {
             </button>
             </div>
         </div>
-    </div>
+    </header>
   )
 }
 

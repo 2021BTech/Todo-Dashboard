@@ -1,7 +1,7 @@
 import React from 'react';
 import './input.css'
 // componenets
-import Layout from "./componenets/Layout/Layout"
+import Layout from "./Components/Layout/Layout"
 
 function App() {
   return (

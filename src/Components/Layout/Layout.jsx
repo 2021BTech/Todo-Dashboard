@@ -2,7 +2,7 @@ import React from 'react'
 // components
 import SideBar from '../Dashboard/SideBar'
 import Topbar from '../Dashboard/Topbar'
-import Main from '../Dashboard/Main'
+import Menu from '../Dashboard/Menu'
 
 const Layout = () => {
   return (
@@ -10,7 +10,7 @@ const Layout = () => {
       <SideBar/>
       <div className='bg-[#FCFBFC] w-full'>
         <Topbar/>
-        <Main/>
+        <Menu/>
       </div>
     </div>
   )

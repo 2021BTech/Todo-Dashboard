@@ -16,7 +16,7 @@ const SideBar = () => {
   return (
     <>  
             {/* Logo */}
-         <div className="w-72 h-[1042px] bg-bg-Primary">
+         <nav className="w-72 h-[1042px] bg-bg-Primary">
             <div className="flex justify-center mt-6 mb-7">
                 <img
                   className="w-auto h-auto cursor-pointer"
@@ -29,7 +29,7 @@ const SideBar = () => {
               <a href="/">
                 <div className='flex items-center text-center pl-6 py-0 mx-5 mb-3 cursor-pointer transition-colors text-whitish-Gray hover:text-light-white'>
                   <div className="mr-2">
-                    <TfiDashboard className="h-5 w-5 text-grayish-White" />
+                    <TfiDashboard className="h-5 w-5 text-[#878686]" />
                   </div>
                   <div>
                     <p>Dashboard</p>
@@ -39,7 +39,7 @@ const SideBar = () => {
               <a href="/">
                 <div className='flex items-center text-center pl-6 py-3 mx-5 mb-3 cursor-pointer transition-colors text-whitish-Gray hover:text-light-white'>
                   <div className="mr-2">
-                    <GoSettings className="h-5 w-5 text-grayish-White" />
+                    <GoSettings className="h-5 w-5 text-[#878686]" />
                   </div>
                   <div>
                     <p>Settings</p>
@@ -49,7 +49,7 @@ const SideBar = () => {
               <a href="/">
                 <div className='flex items-center text-center pl-6 py-3 mx-5 mb-3 cursor-pointer transition-colors text-whitish-Gray hover:text-light-white'>
                   <div className="mr-2">
-                    <TbActivity className="h-5 w-5 text-grayish-White" />
+                    <TbActivity className="h-5 w-5 text-[#878686]" />
                   </div>
                   <div>
                     <p>Activities</p>
@@ -59,7 +59,7 @@ const SideBar = () => {
               <a href="/">
                 <div className='flex items-center text-center pl-6 py-3 mx-5 mb-3 cursor-pointer transition-colors text-whitish-Gray hover:text-light-white'>
                   <div className="mr-2">
-                    <AiOutlineUsergroupAdd className="h-5 w-5 text-grayish-White" />
+                    <AiOutlineUsergroupAdd className="h-5 w-5 text-[#878686]" />
                   </div>
                   <div>
                     <p>User</p>
@@ -69,7 +69,7 @@ const SideBar = () => {
               <a href="/">
                 <div className='pl-6 py-3 mx-5 text-center cursor-pointer mb-3 flex items-center transition-colors text-whitish-Gray hover:text-light-white'>
                   <div className="mr-2">
-                    <BiUserPlus className="h-5 w-5 text-grayish-White" />
+                    <BiUserPlus className="h-5 w-5 text-[#878686]" />
                   </div>
                   <div>
                     <p>Added User</p>
@@ -79,7 +79,7 @@ const SideBar = () => {
               <a href="/">
                 <div className='flex items-center text-center pl-6 py-3 mx-5 mb-3 cursor-pointer transition-colors text-whitish-Gray hover:text-light-white'>
                   <div className="mr-2">
-                    <BiNetworkChart className="h-5 w-5 text-grayish-White" />
+                    <BiNetworkChart className="h-5 w-5 text-[#878686]" />
                   </div>
                   <div>
                     <p>Affliate</p>
@@ -90,9 +90,9 @@ const SideBar = () => {
 
               {/* Added Nav Link */}
               <a href="/">
-                <div className='flex items-center text-center pl-6 py-3 mx-5 mb-3 cursor-pointer transition-colors text-grayish-White hover:text-light-white'>
+                <div className='flex items-center text-center pl-6 py-3 mx-5 mb-3 cursor-pointer transition-colors text-[#ddd7d7] hover:text-light-white'>
                   <div className="mr-2">
-                    <CgProfile className="h-5 w-5 text-grayish-White" />
+                    <CgProfile className="h-5 w-5 text-[#878686]" />
                   </div>
                   <div>
                     <p>Profile</p>
@@ -100,9 +100,9 @@ const SideBar = () => {
                 </div>
               </a>
               <a href="/">
-                <div className='flex items-center text-center pl-6 py-3 mx-5 mb-3 cursor-pointer transition-colors text-grayish-White hover:text-light-white'>
+                <div className='flex items-center text-center pl-6 py-3 mx-5 mb-3 cursor-pointer transition-colors text-[#ddd7d7] hover:text-light-white'>
                   <div className="mr-2">
-                    <AiOutlineUsergroupDelete className="h-5 w-5 text-grayish-White" />
+                    <AiOutlineUsergroupDelete className="h-5 w-5 text-[#878686]" />
                   </div>
                   <div>
                     <p>Logout</p>
@@ -118,7 +118,7 @@ const SideBar = () => {
                 alt="cta"
               />
           </div>
-      </div>
+      </nav>
     </>
   );
 }

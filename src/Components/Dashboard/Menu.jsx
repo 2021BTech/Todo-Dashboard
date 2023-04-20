@@ -16,9 +16,9 @@ const Todos = [
   ]
   
 
-const Main = () => {
+const Menu = () => {
   return (
-    <div className='flex justify-between px-16 mt-16 gap-8'>
+    <section className='flex justify-between px-16 mt-16 gap-8'>
       <div className='flex flex-col'>
             <div className='flex justify-between items-center w-[312px] bg-[#F4F6F8] py-2 px-4'>
               <span className='font-medium text-[#858A93]'>To Do</span>
@@ -58,8 +58,8 @@ const Main = () => {
           </div>
           <AddedTask/>
       </div>
-    </div>
+    </section>
   )
 }
 
-export default Main
+export default Menu

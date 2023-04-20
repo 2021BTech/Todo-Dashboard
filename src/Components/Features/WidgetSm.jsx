@@ -3,7 +3,7 @@ import React from 'react'
 import img from "../../assets/image.png"
 
 
-const Avatar = ({w}) => {
+const WidgetSm = ({w}) => {
   return (
       <div className="flex items-center justify-center">
         <img
@@ -25,4 +25,4 @@ const Avatar = ({w}) => {
   )
 }
 
-export default Avatar
+export default WidgetSm

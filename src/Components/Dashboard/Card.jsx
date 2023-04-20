@@ -1,18 +1,18 @@
 import React from 'react'
 //images
-import Avatars from '../Features/Avatar'
+import Avatars from '../Features/WidgetSm'
 //icons
 import iconBullet from '../../assets/icons/icon-bullet.svg'
 import iconMessage from '../../assets/icons/icon-message.svg'
 import iconShare from '../../assets/icons/icon-share.svg'
 import IconthreeDots from '../../assets/icons/icon-three-dots.svg'
 // Component
-import ProgressBar from '../Features/ProgressBar'
+import ProgressBar from '../Features/WidgetLg'
 
 
 const Card = ({title, subTitle, img, progress, message, totalShare, key, bgColor}) => {
   return (
-    <div className='flex flex-col gap-2 mt-4 p-4 bg-white rounded-xl' key={key}>
+    <section className='flex flex-col gap-2 mt-4 p-4 bg-white rounded-xl' key={key}>
         {img ? (<img src={img} alt="cardimage" />) : null}
         <div className='flex justify-between'>
             <div>
@@ -36,7 +36,7 @@ const Card = ({title, subTitle, img, progress, message, totalShare, key, bgColor
             </div>
             <Avatars w={6}/>
         </div>
-</div>
+</section>
   )
 }
 

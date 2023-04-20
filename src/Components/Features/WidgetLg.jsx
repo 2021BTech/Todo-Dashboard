@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ProgressBar = (props) => {
+const WidgetLg = (props) => {
     const { bgColor, completed } = props;
 
     const fillerStyles = {
@@ -16,4 +16,4 @@ const ProgressBar = (props) => {
   )
 }
 
-export default ProgressBar
+export default WidgetLg
